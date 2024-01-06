@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="main">
+    <div class="container">
+      <div class="wrapper">
+        <div class="main__inner">
+          <div class="header__items">
+            <div class="header__items-img">
+              <img src="images/logo.svg" alt="">
+            </div>
+            <div class="header__items-score">
+              <h3 class="score__text">SCORE</h3>
+              <h1 class="score__counter">
+                0
+              </h1>
+            </div>
+          </div>
+          <div class="footer__items">
+            <div class="paper footer__items-item">
+              <img src="images/icon-paper.svg" alt="paper">
+            </div>
+            <div class="scissors footer__items-item">
+              <img src="images/icon-scissors.svg" alt="scissors">
+            </div>
+            <div class="rock footer__items-item">
+              <img src="images/icon-rock.svg" alt="rock">
+            </div>
+          </div>
+          
+          <div class="result__content">
+            <div class="user__hand">
+                <h1 class="user__hand-text">YOU PICKED</h1>
+                <div class="user__hand-item">
+                  <img src="images/icon-paper.svg">
+                </div>
+            </div>
+            <div class="result__items">
+              <div class="result__text">
+                YOU LOSE
+              </div>
+              <button type="button" class="play_again">PLAY AGAIN</button>
+            </div>
+            <div class="house__hand">
+              <h1 class="house__hand-text">THE HOUSE PICKED</h1>
+              <div class="house__hand-item">
+                <img src="images/icon-paper.svg">
+              </div>
+            </div>
+          </div>
+      </div>
+      <button type="button" class="rules">RULES</button>
+    </div>
+    <div class="rules__modal">
+      <div class="rules__modal-content">
+        <div class="rules__modal-content-top">
+          <h1>RULES</h1>
+          <div class="close_btn">
+            <img src="images/icon-close.svg" alt="">
+          </div>
+        </div>
+        <div class="rules__modal-content-bottom">
+          <img src="images/image-rules.svg" alt="rules">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  <script src="./src/js/app.js" type="module"></script>
+</body>
+
+</html>

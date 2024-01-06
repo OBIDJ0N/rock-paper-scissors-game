@@ -1,0 +1,30 @@
+.paper {
+    border-radius: 50%;
+    border: 25px solid transparent;
+    background: linear-gradient(to right, $white, $white),
+        linear-gradient(to bottom, $paper-color-second, $paper-color-first);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-shadow: 0 8px 1px hsl(228.4, 64.66%, 45.49%);
+}
+
+.scissors {
+    border-radius: 50%;
+    border: 25px solid transparent;
+    background:
+        linear-gradient(to right, $white, $white),
+        linear-gradient(to bottom, $scissors-color-second , $scissors-color-first);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-shadow: 0 8px 1px hsl(28.28, 78.38%, 43.53%);
+}
+.rock{
+    border-radius: 50%;
+    border: 25px solid transparent;
+    background: 
+    linear-gradient(to right, $white, $white), 
+    linear-gradient(to bottom, $rock-color-second , $rock-color-first); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-shadow: 0 8px 1px hsl(346.76,74.73%,35.69%);
+}
