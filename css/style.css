@@ -53,11 +53,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media (max-width: 680px) {
-  .main .container .wrapper {
-    height: 100dvh;
-  }
+  height: 100dvh;
 }
 .main .container .wrapper .main__inner {
   width: 100%;
