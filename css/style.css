@@ -43,17 +43,20 @@ img {
   height: auto;
 }
 
+.main {
+  margin-top: 45px;
+}
 .main .container {
   max-width: 1396px;
   margin: 0 auto;
   padding: 0 15px;
+  height: 100dvh;
 }
 .main .container .wrapper {
-  margin-top: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100dvh;
+  height: 95%;
 }
 .main .container .wrapper .main__inner {
   width: 100%;
